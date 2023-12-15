@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://c00ducppeyj48"]
+
+[ext_resource type="Script" path="res://DebugParent.gd" id="1_w1tws"]
+[ext_resource type="PackedScene" uid="uid://7o6tyd38dnjx" path="res://DebugWindow2.tscn" id="2_8b31k"]
+
+[node name="DebugParent" type="Node"]
+script = ExtResource("1_w1tws")
+window_scene = ExtResource("2_8b31k")
